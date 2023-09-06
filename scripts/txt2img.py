@@ -239,6 +239,7 @@ def main():
         opt.config = "configs/latent-diffusion/txt2img-1p4B-eval.yaml"
         opt.ckpt = "models/ldm/text2img-large/model.ckpt"
         opt.outdir = "outputs/txt2img-samples-laion400m"
+    # opt.ckpt = r"D:\\Files\\Coding\data\stable-diffusion\\models\\ldm\stable-diffusion-v1\\majicmixRealistic_v2.safetensors"
 
     seed_everything(opt.seed)
 
